@@ -1,0 +1,77 @@
+.players-container {
+  border: 2pt solid red;
+}
+
+thead,
+tbody,
+tr {
+  display: contents;
+}
+
+.table {
+  font-size: 1rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  color: white;
+  gap: 0.1em;
+}
+
+.table__button {
+  padding: 0.25em;
+  font-size: 1rem;
+  color: white;
+  background-color: rgba(0, 128, 0, 0.467);
+}
+
+.table__thead {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.table__th,
+.table__cell {
+  background-color: rgba(128, 128, 128, 0.289);
+  text-align: left;
+  border: 1px solid orange;
+  padding: 0.5em;
+}
+
+.table__cell:last-child {
+  background-color: rgba(0, 0, 0, 0.512);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.table__cell--inactive {
+  background-color: rgba(72, 72, 72, 0.276);
+}
+.player__created,
+.player__updated {
+  display: none;
+}
+.player__fullName {
+  color: rgb(43, 244, 255);
+}
+.player__position {
+  color: rgb(43, 244, 255);
+}
+.player__number {
+  color: rgb(43, 244, 255);
+}
+
+.player__status {
+  font-weight: bold;
+}
+
+.player__status--active {
+  color: rgb(0, 255, 60);
+}
+
+.player__status--inactive {
+  color: red;
+}

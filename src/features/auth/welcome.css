@@ -1,0 +1,42 @@
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2pt solid red; */
+  padding: 20px 10px 20px 10px;
+  width: 80vw;
+}
+.welcome-title {
+  padding: 10px 5px 10px 5px;
+  /* border: 2pt solid blue; */
+}
+.welcome-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px 5px 10px 5px;
+  width: 30%;
+  /* border: 2pt solid orange; */
+}
+.welcome a {
+  color: white;
+  text-decoration: none;
+}
+button {
+  background-color: rgba(255, 255, 255, 0.171);
+  padding: 10px;
+  border: 2pt solid white;
+  border-radius: 0.3rem;
+  margin-top: 10px;
+  min-width: 150px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+button:hover {
+  transition: 0.5s ease;
+  border: 2pt solid orange;
+  cursor: pointer;
+}
